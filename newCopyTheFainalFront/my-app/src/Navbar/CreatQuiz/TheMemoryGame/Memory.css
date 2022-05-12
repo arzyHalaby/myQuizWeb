@@ -1,0 +1,72 @@
+
+  
+  
+  
+  #imagesMemoryForm  {
+    border: 2px blue solid;
+   position: relative;
+    display: flow-root;
+    width: 300px;
+    height:500px;
+    /* margin-right: -100px; */
+    background-color: rgba(248, 168, 8, 0.245);
+    /* border-radius: 20px solid red; */
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    color: #858583;
+    padding: 50px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 95px;
+    margin-bottom: 30px;
+    break-after: page;
+    margin-left: 500px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px 0px, rgb(0 0 0 / 15%) 0px -1px 2px 0px;
+  }
+  
+  
+  
+  .imagMemoryGame .lblGame {
+    /* border: 2px rgb(36, 25, 25) solid; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+    display: flow-root;
+    border: 15px;
+    padding: 5px;
+    font-size: 0.7rem;
+    margin-top: 0px;
+    min-width: 100px;
+    border-radius: 15px;
+    font-size: 1.7rem;
+    color: rgba(7, 39, 221, 0.918);}
+   
+   
+    .imagMemoryGame .divAroundGame{
+margin-top:-20px;
+    }
+  
+   
+    .divAroundGame label input[type=text]{
+      border-radius: 11px;
+      height: 35px;
+      margin-top: 10px;
+     
+    }
+    .divAroundGame label input[type=file]{
+      
+      height: 35px;
+     
+    }
+   
+
+  .imagMemoryGame input[type=submit] {
+    padding: 10px;
+  
+    margin-top: 10px;
+    min-width: 100px;
+    background-color: rgba(248, 168, 8, 0.952);
+    border-radius: 12px;
+    font-size: 1.0rem;
+    color: rgba(7, 39, 221, 0.918);
+    margin-top: 10px;
+  }

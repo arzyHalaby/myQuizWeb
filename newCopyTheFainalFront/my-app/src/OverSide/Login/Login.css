@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.allLoginBadge{
+  display: flex;
+  justify-content:center;
+  background-image: url('/public/images/tntn.jpeg');
+  background-size: cover;
+  /* min-height: 50vh; */
+
+
+}
+
+
+.allLogIn {
+
+  background-color: rgba(243, 221, 140, 0.697);
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-sizing: initial;
+  width: 200px;
+  border: 5px solid rgba(241, 213, 71, 0.384);
+  padding: 50px;
+  margin-top: 7%;
+  display: inline-flex;
+  margin-right: 300px;
+
+
+}
+
+.allLogIn .lblLogin {
+  display: flow-root;
+  border: 15px;
+  flex-direction: column-reverse;
+  padding: 5px;
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 15px;
+  font-size: 1.7rem;
+  color: rgba(7, 39, 221, 0.918);
+  
+}
+
+
+.allLogIn input[type=text] {
+  padding: 10px;
+  border: solid 3px rgba(248, 168, 8, 0.952);
+  border-radius: 12px;
+  font-size: 1.2rem;
+  width: 200px;
+}
+
+.allLogIn input[type=submit] {
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  min-width: 200px;
+  background-color: rgba(248, 168, 8, 0.952);
+  border-radius: 12px;
+  font-size: 2.0rem;
+  color: rgba(7, 39, 221, 0.918);
+  margin-top: 20px;
+}
+
+.allLogIn button {
+  margin-top: 10px;
+  padding: 5px;
+  border: solid 3px rgba(45, 196, 241, 0.74);
+  border-radius: 12px;
+  
+}
+
+#password {
+  display: flow-root;
+  border: 15px;
+  flex-direction: column-reverse;
+  padding: 10px;
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  color: rgba(7, 39, 221, 0.918);
+  /* border: solid 3px rgba(45, 196, 241, 0.74); */
+  border: solid 3px rgba(248, 168, 8, 0.952);
+}

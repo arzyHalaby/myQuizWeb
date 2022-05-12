@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .Home-logo {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+} */
+
+/* .homeAllAroundDiv .HomeHone {
+  color: rgb(15, 143, 100);
+
+}
+
+.homeAllAroundDiv .HomeHtow {
+  color: brown;
+  margin: 15px;
+} */
+
+/* .homeAllAroundDiv img{
+        height: 300px;
+        width: 300px;
+        margin: 15px;
+    } */
+.AroundHoneAndHtow {
+  display: flex;
+  justify-content: center;
+  background-image: url('/public/images/teacherWithAll.jpg');
+  background-size: cover;
+  /* background-position:; */
+  /* background-repeat: no-repeat; */
+  min-height: 120vh;
+  /* min-width: 100%; */
+}
+
+.HomeOne {
+  color: rgb(9, 68, 145);
+  margin-left: 650px;
+  margin-top: 40px;
+  font-weight: 100;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* text-shadow: 3px 0px 3px 3px rgb(13, 13, 13); */
+
+}
+
+.HomeOne h1 {
+  text-shadow: 3px 0px 3px 3px rgb(13, 13, 13);
+
+}
+.homeHeader{
+  text-shadow: 3px 0px 3px 3px rgb(13, 13, 13);
+
+}
+.text{
+  color: rgb(9, 68, 145);
+  margin-left: 150px;
+  margin-top: 40px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+background-color: rgba(248, 168, 8, 0.245);
+font-size:large;
+margin-right: 50px;
+margin-top: 80px;
+}

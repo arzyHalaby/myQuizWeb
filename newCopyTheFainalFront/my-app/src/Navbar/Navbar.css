@@ -1,0 +1,55 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  /* margin: 15px; */
+  padding: 20px;
+  background-color: rgba(248, 168, 8, 0.952);
+
+    /* justify-content: left; */
+
+}
+
+.Navbar:hover {
+  cursor: pointer;
+}
+
+.Navbar .navlogo img {
+
+  margin-top: 10px;
+  height: 50px;
+  width: auto;
+}
+
+
+.Navbar .NavItemsUl {
+  list-style: none;
+  display: flex;
+
+
+
+}
+
+
+.Navbar .NavItemsUl li {
+  margin-left: 20px;
+
+
+}
+
+
+.Navbar .NavItemsUl li a {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(7, 39, 221, 0.918);
+  font-weight: bolder;
+  font-size: 1.7rem;
+  /* border: solid 3px rgba(45, 196, 241, 0.74); */
+  padding-right: 10px;
+  text-decoration: none;
+
+}
+
+.Navbar .NavItemsUl li:hover {
+
+  transform: scale(1.2);
+}

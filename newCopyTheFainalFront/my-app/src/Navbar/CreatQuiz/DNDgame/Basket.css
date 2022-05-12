@@ -1,0 +1,13 @@
+.basket{
+   
+    width: 70%;
+    margin-left: 20%;
+    border:5px rgba(248, 168, 8, 0.952) solid;
+    background-color: rgb(249, 255, 255);
+}
+.first{
+    color:rgb(7, 7, 7);
+    font-style: oblique;
+    font-size: larger;
+
+}
